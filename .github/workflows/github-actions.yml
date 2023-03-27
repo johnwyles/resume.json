@@ -1,0 +1,19 @@
+name: Update resume.json Gist
+run-name: ${{ github.actor }} just pushed a change
+on: [push]
+jobs:
+  Deploy_Gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build Resume
+        run: |
+          export RESUME_YAML_SOURCE_FILE=${{ vars.RESUME_YAML_SOURCE_FILE }}
+          scripts/build.sh
+      - name: Deploy Gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_TOKEN }}
+          gist_id: c188cd2931022b17cf991d1835bfabc7
+          file_path: scripts/output/resume.json
+          file_type: text

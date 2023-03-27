@@ -1,0 +1,7 @@
+.DS_Store
+.gitconfig
+.vscode/
+node_modules/
+output/
+resume.json
+resume.pii.yaml
