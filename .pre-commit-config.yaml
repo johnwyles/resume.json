@@ -1,23 +1,9 @@
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
-    hooks:
-      - id: check-json
-      - id: pretty-format-json
-        args: [--autofix]
-
   - repo: https://github.com/mattlqx/pre-commit-search-and-replace
     rev: v1.0.5
     hooks:
       - id: search-and-replace
         name: Check for PII
-        files: ^resume.*.json$
-  - repo: local
-    hooks:
-      - id: system
-        language: system
-        name: Resume Schema Validation
-        entry: resume validate
-        files: ^resume.*.json$
+        files: ^resume.*.yaml$
 
 fail_fast: true
