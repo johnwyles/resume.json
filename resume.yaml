@@ -1,6 +1,6 @@
 basics:
-  image: https://raw.githubusercontent.com/johnwyles/resume.json/main/avatar.jpg
-  label: Automation (CI/CD/++), DevSecOps, and Cloud
+  image: https://raw.githubusercontent.com/johnwyles/resume.json/main/tech-avatar-small.jpg
+  label: DevOps / DevSecOps Automation (CI/CD/++), and Cloud
   location:
     city: Manhattan Beach
     countryCode: US
@@ -78,19 +78,19 @@ skills:
     level: Senior
     name: Software Development and Engineering
   - keywords:
-      - "Web: Nginx/HA/Apache"
-      - "DB: RDS/DynamoDB/Postgres/MySQL/Mongo"
-      - "Logging/Monitoring: DataDog/NewRelic/CloudWatch/Grafana"
-      - "CI/CD: Jenkins/CodeDeploy/Argo/CircleCI"
-      - "DNS: Route53/PowerDNS"
-      - "Cache: Redis/Elasticache/Memcache"
-      - "Queueing: RabbitMQ/SQS"
-      - "Storage: S3/EBS"
-      - "Cloud Networking: SGs/ALBs/NAT/VPCs/ASGs"
-      - "Security: IAM/Okta/Vault/ForgeRock/LDAP/AD/VPN"
-      - "Containers/VM: Docker/DockerCompose/ECS/EKS/Rancher/Vagrant"
-      - "Repository: ECR/Artifactory/Helm/YUM/APT/DockerHub"
-      - "Infrastructure: Terraform/CloudFormation/Ansible/Puppet/Chef"
+      - "Web: Caddy, Nginx, Apache"
+      - "DB: RDS, DynamoDB, Postgres, MySQL, Mongo"
+      - "Logging / Monitoring: DataDog, NewRelic, CloudWatch, Grafana"
+      - "CI/CD / Automation: Jenkins, AWS CodePipeline / CodeBuild / CodeDeploy, GitHub Actions, Argo, CircleCI"
+      - "DNS: Route53, PowerDNS"
+      - "Cache: Redis, Elasticache, Memcache"
+      - "Queueing: RabbitMQ, SQS"
+      - "Storage: S3, EBS"
+      - "Cloud Networking: SGs, ELB / ALBs, NAT, VPCs, ASGs"
+      - "Security: IAM, Okta, Vault, ForgeRock, LDAP, AD, VPN"
+      - "Containers/VM: Docker, DockerCompose, ECS, EKS, Rancher, Vagrant"
+      - "Repository: ECR, Artifactory, Helm, APT, YUM, DockerHub"
+      - "Infrastructure: Terraform, CloudFormation, Ansible, Puppet, Chef"
     level: Architect
     name: Systems
   - keywords:
@@ -142,7 +142,7 @@ work:
   - endDate: "2022-05-01"
     highlights:
       - Mentored engineers with various skill levels, assessed and recruited new engineers, and improved retention of valuable team members
-      - Discovered reward and feedback loops for engineering reports which helped grow the individual consultants and the company
+      - Discovered reward and feedback loops for engineering talent which helped grow the individual consultants and the company
       - SME Consultant for on-prem to AWS migrations for external client engagements
     name: RSI
     position: Senior Principal Engineer and Manager

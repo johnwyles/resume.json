@@ -34,11 +34,8 @@ if [ $? != 0 ]; then
 fi
 cp resume.json ./output/
 
-$RESUME_CLI_COMMAND export --theme kendall resume.html
-mv resume.html ./output/
-
-$RESUME_CLI_COMMAND export --theme kendall resume.pdf
-mv resume.pdf ./output/
+$RESUME_CLI_COMMAND export --theme kendall ./output/resume.html
+$RESUME_CLI_COMMAND export --theme kendall ./output/resume.pdf
 
 rm -f resume.json
 rm -f resume.yaml
