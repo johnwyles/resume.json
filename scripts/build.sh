@@ -11,9 +11,11 @@ function cleanup() {
     $SCRIPTS_DIR/resume.pdf
 }
 
-RESUME_YAML_SOURCE_FILE="../${RESUME_SOURCE_YAML_FILE:-resume.yaml}" 
+RESUME_THEME="${RESUME_THEME:-kendall}" 
+
+RESUME_YAML_SOURCE_FILE="../${RESUME_YAML_SOURCE_FILE:-resume.yaml}" 
 if [ ! -f $RESUME_YAML_SOURCE_FILE ]; then
-  echo "The supplied Resume YAML Source File was not found at: ${RESUME_SOURCE_YAML_FILE}"
+  echo "The supplied Resume YAML Source File was not found at: ${RESUME_YAML_SOURCE_FILE}"
   cleanup
   exit 1
 fi
@@ -34,8 +36,8 @@ if [ $? != 0 ]; then
 fi
 cp resume.json ./output/
 
-$RESUME_CLI_COMMAND export --theme kendall ./output/resume.html
-$RESUME_CLI_COMMAND export --theme kendall ./output/resume.pdf
+$RESUME_CLI_COMMAND export --theme $RESUME_THEME ./output/resume.html
+$RESUME_CLI_COMMAND export --theme $RESUME_THEME ./output/resume.pdf
 
 rm -f resume.json
 rm -f resume.yaml

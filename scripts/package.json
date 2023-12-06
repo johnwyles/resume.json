@@ -1,7 +1,10 @@
 {
   "dependencies": {
+    "jsonresume-theme-actual": "github:davcd/jsonresume-theme-actual",
     "jsonresume-theme-elegant": "^1.3.10",
+    "jsonresume-theme-full": "^0.0.4",
     "jsonresume-theme-kendall": "github:johnwyles/jsonresume-theme-kendall",
+    "jsonresume-theme-relaxed": "",
     "resume-cli": "^3.0.8"
   }
 }

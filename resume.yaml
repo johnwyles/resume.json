@@ -2,15 +2,15 @@ basics:
   image: https://raw.githubusercontent.com/johnwyles/resume.json/main/tech-avatar-small.png
   label: DevOps / DevSecOps Automation (CI/CD/++), and Cloud
   location:
-    city: Manhattan Beach
+    city: Dallas
     countryCode: US
-    region: California
+    region: Texas
   name: John Wyles
   profiles:
     - network: GitHub
       url: https://github.com/johnwyles
       username: johnwyles
-  summary: Developing and growing core software engineering values within engineering teams. Driving innovative software and organizational changes that are highly scalable, managed, tested, and most importantly automated.Management and leadership of teams on quality best practices, developing technologies, pragmatic software, and systems design and architecture.
+  summary: Developing and growing core software engineering values within engineering teams. Driving innovative software and organizational changes that are highly scalable, managed, tested, and most importantly automated. Management and leadership of teams on quality best practices, developing technologies, pragmatic software, and systems design and architecture.
   url: https://johnwyles.com
 education:
   - area: Biochemisty and Computational Biology
@@ -80,7 +80,7 @@ skills:
   - keywords:
       - "Web: Caddy, Nginx, Apache"
       - "DB: RDS, DynamoDB, Postgres, MySQL, Mongo"
-      - "Logging / Monitoring: DataDog, NewRelic, CloudWatch, Grafana"
+      - "Logging / Monitoring: DataDog, NewRelic, CloudWatch, Prometheus, Grafana"
       - "CI/CD / Automation: Jenkins, AWS CodePipeline / CodeBuild / CodeDeploy, GitHub Actions, Argo, CircleCI"
       - "DNS: Route53, PowerDNS"
       - "Cache: Redis, Elasticache, Memcache"
@@ -131,7 +131,8 @@ volunteer:
     summary: School on Wheels volunteers provide free tutoring and mentoring to children from kindergarten through twelfth grade living in shelters, motels, vehicles, group foster homes, and the streets of Southern California.
     url: https://swatedu.org/
 work:
-  - highlights:
+  - endDate: "2023-10-01"
+    highlights:
       - Movement from on-prem to AWS for the first SIFMU organization under 800-million nightly contracts to clear
       - Central team setting guidelines and best practices for adoption across the organization to adopt as the golden standard with dotted-line DevOps embedded engineers reporting in within the group at various pillars of the company
     name: The OCC
